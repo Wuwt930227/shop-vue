@@ -1,40 +1,20 @@
 <script setup lang="ts">
-  import one from '@/assets/ONE.png'
-  import two from '@/assets/TWO.png'
-  import three from '@/assets/THREE.png'
-  import down from '@/assets/down.png'
-  import headertop from '@/components/header-top.vue'
+    import one from '@/assets/ONE.png'
+    import two from '@/assets/TWO.png'
+    import three from '@/assets/THREE.png'
+    import down from '@/assets/down.png'
+    import headertop from '@/components/header-top.vue'
+    import headermainnav from '@/components/header-main-nav.vue'
+    import headercategories from '@/components/header-categories.vue'
 </script>
 
 <template>
-      <header>
-          <headertop/>
-          <div class="main-nav">
-              <div class="logo"><i class="fa-solid fa-bag-shopping"></i> 蝦皮購物</div>
-              <div class="search-bar">
-                  <input type="text" placeholder="註冊獲得全站優惠券與免運券">
-                  <button><i class=" fa-solid fa-magnifying-glass"></i></button>
-              </div>
-              <div class="cart-icon">
-                  <button><i class="fa-solid fa-cart-shopping"></i></button>
-              </div>
-          </div>
-
-          <div class="categories">
-              <a href="#">超便宜手機</a> |
-              <a href="#">Nike官網</a> |
-              <a href="#">學生裝</a> |
-              <a href="#">行充20000mah</a> |
-              <a href="#">假指甲貼片</a> |
-              <a href="#">手飾</a> |
-              <a href="#">解壓球捏捏</a> |
-              <a href="#">拍立得相機</a> |
-              <a href="#">軟骨頭沙發</a> |
-              <a href="#">Jogging Pants Men</a> |
-              <a href="#">流行包包</a>
-          </div>
+    <header>
+        <headertop/>
+        <headermainnav/>
+        <headercategories/>
     </header>
-      <br>
+    <br>
     <main>
         <div class="two">
             <div class="image-container">
