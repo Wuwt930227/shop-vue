@@ -3,9 +3,9 @@
     import two from '@/assets/TWO.png'
     import three from '@/assets/THREE.png'
     import down from '@/assets/down.png'
-    import headertop from '@/components/header-top.vue'
-    import headermainnav from '@/components/header-main-nav.vue'
-    import headercategories from '@/components/header-categories.vue'
+    import headertop from '@/components/header/header-top.vue'
+    import headermainnav from '@/components/header/header-main-nav.vue'
+    import headercategories from '@/components/header/header-categories.vue'
 </script>
 
 <template>
