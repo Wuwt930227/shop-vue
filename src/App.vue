@@ -1,16 +1,12 @@
 <script setup lang="ts">
     import down from '@/assets/image/down.png'
-    import headertop from '@/components/header/header-top.vue'
-    import headermainnav from '@/components/header/header-main-nav.vue'
-    import headercategories from '@/components/header/header-categories.vue'
+    import headerall from '@/components/header/header-all.vue'
     import mainone from '@/components/main/main-one.vue'
 </script>
 
 <template>
     <header>
-        <headertop/>
-        <headermainnav/>
-        <headercategories/>
+        <headerall/>
     </header>
     <br>
     <main>
