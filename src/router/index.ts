@@ -6,10 +6,16 @@ const routes = [
   {
     path: '/',
     components: {
-    header:headerall,
-    main:mainone
+      header: headerall,
+      main: mainone
     }
   },
+  {
+    path: "/cheap-phone",
+    components: {
+      header: headerall,
+    }
+  }
 ]
 
 const router = createRouter({
