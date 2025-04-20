@@ -1,11 +1,14 @@
 <script setup lang="ts">
     import down from '@/assets/image/down.png'
+    import mainone from '@/components/main/main-one.vue'
+
 </script>
 
 <template>
     <router-view name="header"></router-view>
     <br>
-    <router-view name="main"></router-view>
+    <!--<router-view name="main"></router-view>-->
+    <mainone></mainone>
     <br>
     <footer>
         <div class="three">
