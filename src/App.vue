@@ -3,10 +3,10 @@
 </script>
 
 <template>
-        <router-view name="header"></router-view>
+    <router-view name="header"></router-view>
     <br>
-        <router-view name="main"></router-view>
-        <br>
+    <router-view name="main"></router-view>
+    <br>
     <footer>
         <div class="three">
             <div class="categories">
