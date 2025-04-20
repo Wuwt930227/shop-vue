@@ -1,11 +1,14 @@
-/*import { createRouter, createWebHistory } from 'vue-router'
-import Home from ""
+import { createRouter, createWebHistory } from 'vue-router'
+import headerall from "@/components/header/header-all.vue"
+import mainone from '@/components/main/main-one.vue'
 
 const routes = [
   {
     path: '/',
-    name:"",
-    component: Home
+    components: {
+    header:headerall,
+    main:mainone
+    }
   },
 ]
 
@@ -15,4 +18,3 @@ const router = createRouter({
 })
 
 export default router
-需要時再取消註解*/

@@ -1,17 +1,11 @@
 <script setup lang="ts">
     import down from '@/assets/image/down.png'
-    import headerall from '@/components/header/header-all.vue'
-    import mainone from '@/components/main/main-one.vue'
 </script>
 
 <template>
-    <header>
-        <headerall/>
-    </header>
+        <router-view name="header"></router-view>
     <br>
-    <main>
-        <mainone/>
-    </main>
+        <router-view name="main"></router-view>
         <br>
     <footer>
         <div class="three">

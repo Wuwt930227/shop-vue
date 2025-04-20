@@ -1,7 +1,9 @@
 <template>
-    <headertop/>
-    <headermainnav/>
-    <headercategories/>
+    <header>
+        <headertop/>
+        <headermainnav/>
+        <headercategories/>
+    </header>
 </template>
 <script setup lang="ts">
     import headertop from '@/components/header/header-top.vue'
