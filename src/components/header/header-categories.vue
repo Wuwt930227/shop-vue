@@ -17,4 +17,17 @@
 </script>
 
 <style scoped>
+    .categories {
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        margin-top: 10px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .categories a {
+        color: white;
+        text-decoration: none;
+    }
 </style>

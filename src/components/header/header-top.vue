@@ -23,4 +23,19 @@
 </script>
 
 <style scoped>
+  .top {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+  }
+
+  .top .left, .right {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+  }
+
+  .top i {
+      cursor: pointer;
+  }
 </style>
